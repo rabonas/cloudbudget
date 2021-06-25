@@ -1,0 +1,318 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro {
+    color: #fff;
+    background-image: url(../img/Bg\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #ee3d1b;
+}
+
+.intro .header {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.intro .nav {
+    margin-left: 160px;
+    margin-right: 115px;
+}
+
+.intro .nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.intro .header * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-buttens a {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: uppercase;
+    color: #fff;
+}
+
+.header-buttens a img {
+    margin-right: 12px;
+}
+
+.header-buttens .button {
+    margin-left: 20px;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.intro h1 {
+    font-size: 72px;
+    margin-top: 100px;
+
+
+}
+
+.intro h1, .intro
+p {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.intro p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.kom {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-left: 700px;
+    color: #ED4C5C;
+    padding: 12px 20px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.nol {
+    height: 187px;
+}
+
+.video {
+    display: inline-block;
+    margin-left: 165px;
+    padding-top: 100px;
+}
+
+.video p {
+    text-align: justify;
+    color: #000;
+    font-size: 14px;
+    padding-top: 92px;
+}
+
+.video {
+    
+    width: 75%;
+}
+
+.video img {
+    display: inline-block;
+    width: 445px;
+    height: 311px;
+    margin-left:  600px;
+    margin-top: -42%;
+    background: url(.jpg), #C4C4C4;
+    border-radius: 15px;
+}
+
+.videora {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 75px;
+}
+
+.video a {
+    color: red;
+    font-size: 14px;
+}
+
+.zero {
+    height: 110px;
+}
+
+.menu {
+    background-color: #FAFAFA;
+    height: 450px;
+}
+
+.menu h1 {
+    text-align: center;
+    padding: 45px;
+}
+
+.menu div {
+    display: inline-block;
+}
+
+.rasm .pul {
+    margin-left: 250px;
+}
+
+.menu img {
+    width: 250px;
+    margin-left: 100px;
+}
+
+.menu .text {
+    margin-top: -80px;
+}
+
+.text a {
+    color: red;
+}
+
+.menu .malumot {
+    background-color: white;
+    font-size: 14px;
+    width: 194px;
+    height: 185px;
+    margin-left: 155px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu .malumot1 {
+    background-color: white;
+    font-size: 14px;
+    width: 194px;
+    height: 185px;
+    margin-left: 280px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.technology h1 {
+    text-align: center;
+    margin-top: 63px;
+}
+
+.technology .one {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.technology .lon {
+    height: 104px;
+}
+
+.infor .num1 {
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    margin-left: 165px;
+}
+
+.infor .num {
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    margin-left: 137px;
+   
+}
+
+.restaurant {
+    background-color: #ED4C5C;
+}
+
+.restaurant .money {
+    display: inline-block;
+    text-align: left;
+    width: 445px;
+    margin-left: 200px;
+    padding: 110px 0px;
+    line-height: 25px;
+}
+
+.restaurant .money h1 {
+    margin-bottom: 60px;
+    font-size: 36px;
+    line-height: normal;
+}
+
+.restaurant .money p {
+    margin-bottom: 40px;
+}
+
+.restaurant .hotel {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 94px;
+}
+
+.contact {
+    height: 520px;
+}
+
+.contact .ques {
+    width: 445px;
+    margin-left: 176px;
+    padding: 117px 0px;
+    text-align: left;
+}
+
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+
+.contact p {
+    line-height: 25px;
+}
+
+.footer {
+    background-color: #FAFAFA;
+}
+
+.footer div {
+    display: inline-block;
+}
+
+.footer a {
+    color: black;
+    font-size: 12px;
+}
+
+.footer .address {
+    width: 259px;
+    margin-left: 161px;
+    line-height: 150%;
+}
+
+.footer .services {
+    width: 254px;
+    height: 164px;
+    margin-left: 30px;
+    margin-top: 10px;
+    line-height: 110%;
+}
+
+.footer .touch {
+    width: 127px;
+    height: 128px;
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+.footer .support {
+    width: 216px;
+    margin-left: 161px;
+    line-height: 85px;
+}
+
+.footer .support img {
+    margin-bottom: 18px;
+}
+
+.footer .data {
+    margin: 50px 161px;
+}
