@@ -1,0 +1,333 @@
+@import url(./icon.css);
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ============================
+            HEADER
+============================ */
+
+.intro {
+    color: #fff;
+    background-image: url(../img/bg\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #ee3d1b;
+}
+
+.intro .header {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.intro .nav {
+    margin-left: 160px;
+    margin-right: 115px;
+}
+
+.intro .nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-buttons a {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: uppercase;
+    color: #fff;
+}
+
+.header-buttons img {
+    margin-right: 12px;
+}
+
+.top-button {
+    margin-left: 20px;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.header-text {
+    width: 578px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-text h1 {
+    font-size: 72px;
+    padding: 177px 0 20px;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-text p {
+    padding: 20px 45px 60px;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.bottom-button {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    padding: 17px 53px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.zero {
+    height: 187px;
+}
+
+/* ===============================
+           OVERVIEW
+=============================== */
+
+.video-container {
+    max-width: 1015px;
+    margin: 94px auto;
+}
+
+.video-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -62.5px;
+}
+
+.column {
+    padding: 0 62.5px;
+}
+
+.column h2 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 12px;
+}
+
+.column p {
+    font-size: 14px;
+    padding: 12px 0 24px;
+}
+
+.column a {
+    font-size: 14px;
+    color: #ED4C5C;
+}
+
+/* =============================
+           FEATURES
+============================== */
+
+#features {
+    padding: 63px 0 150px;
+    background: #FAFAFA;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 63px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.column3 {
+    position: relative;
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.column3-text {
+    position: absolute;
+    width: 290px;
+    height: 180px;
+    bottom: -70px;
+    left: 45px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.column3-text h3 {
+    font-size: 18px;
+    padding: 30px 35px 18px;
+    color: #101010;
+}
+
+.column3-text p {
+    padding: 0 30px 5px;
+    font-size: 12px;
+    color: #101010;
+}
+
+.column3-text a {
+    font-size: 12px;
+    color: #ED4C5C;
+}
+
+/* ============================
+         TECHNOLOGY
+============================ */
+
+#technology {
+    padding: 63px 0 104px;
+}
+
+.column4 {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.column4 img {
+    width: 117px;
+    height: 120px;
+}
+
+.column4 h3 {
+    padding: 10px 0;
+}
+
+.column4 p {
+    padding: 0 32px 20px;
+    font-size: 12px;
+}
+
+/* ===============================
+            DOWNLOAD
+=============================== */
+
+#download {
+    padding: 95px 0;
+    background-color: #ED4C5C;
+}
+
+.download-container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.download-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-column {
+    width: 445px;
+    color: #fff;
+}
+
+.text-column h2 {
+    font-size: 36px;
+    padding-bottom: 24px;
+}
+
+.text-column p {
+    font-size: 14px;
+    line-height: 140%;
+    padding-bottom: 44px;
+}
+
+.text-column a {
+    padding-right: 25px;
+}
+
+/* ==========================
+          CONTACT
+========================== */
+
+#contact {
+    padding: 117px 0 250px;
+}
+
+.text {
+    width: 445px;
+    margin: 0 176px ;
+}
+
+.text h2 {
+    font-size: 36px;
+    padding-bottom: 60px;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* =============================
+            FOOTER
+============================= */
+
+footer {
+    padding: 85px 0;
+    background-color: #FAFAFA;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1075px;
+    margin: 0 auto;
+}
+
+.footer-container h3 {
+    font-size: 18px;
+    font-style: normal;
+    padding-bottom: 30px;
+}
+
+.small {
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 160%;
+    color: #101010;
+}
+
+.address {
+    width: 200px;
+}
+
+.address span {
+    padding-top: 140px;
+}
+
+.our-address span {
+    font-size: 12px;
+    color: #101010;
+    padding-right: 10px;
+    line-height: 55px;
+}
